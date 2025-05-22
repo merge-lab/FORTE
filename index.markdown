@@ -185,7 +185,7 @@ highlight {
         <tr>
           <td>
             <p align="justify" width="20%">
-              Handling delicate and fragile objects remains a major challenge for robotic manipulation, especially for rigid parallel grippers. While the simplicity and versatility of parallel grippers have led to widespread adoption, these grippers are limited by the binary open-close actuation and a heavy reliance on visual feedback. Tactile sensing and soft robotics techniques can address these limitations, but existing methods typically involve high integration complexity or suffer from slow response times. In this work, we introduce FORTE, a tactile sensing system embedded in compliant gripper fingers. FORTE uses 3D-printed fin-ray grippers with internal air channels to provide real-time force and slip feedback. FORTE applies just enough force to grasp objects without damaging them, while remaining easy to fabricate and integrate. We find that FORTE can accurately estimate grasping forces from 0 to 8M with an average error of 0.2N, and detect slip events within 100ms of occurring. Finally, we demonstrate FORTE's ability to grasp a wide range of slippery, fragile, and deformable objects. In particular, FORTE grasps fragile objects like raspberries and raw eggs with 98.6\% grasping success rate and 93\% accuracy on detecting slip events. These results highlight FORTE’s potential as a robust and practical solution for enabling delicate robotic manipulation.
+              Handling delicate and fragile objects remains a major challenge for robotic manipulation, especially for rigid parallel grippers. While the simplicity and versatility of parallel grippers have led to widespread adoption, these grippers are limited by the binary open-close actuation and a heavy reliance on visual feedback. Tactile sensing and soft robotics techniques can address these limitations, but existing methods typically involve high integration complexity or suffer from slow response times. In this work, we introduce FORTE, a tactile sensing system embedded in compliant gripper fingers. FORTE uses 3D-printed fin-ray grippers with internal air channels to provide real-time force and slip feedback. FORTE applies just enough force to grasp objects without damaging them, while remaining easy to fabricate and integrate. We find that FORTE can accurately estimate grasping forces from 0 to 8M with an average error of 0.2N, and detect slip events within 100ms of occurring. Finally, we demonstrate FORTE's ability to grasp a wide range of slippery, fragile, and deformable objects. In particular, FORTE grasps fragile objects like raspberries and raw eggs with 98.6% grasping success rate and 93% accuracy on detecting slip events. These results highlight FORTE’s potential as a robust and practical solution for enabling delicate robotic manipulation.
       	    </p>
           </td>
         </tr>
@@ -194,17 +194,49 @@ highlight {
   </div>
 </p>
 
-<table align="center" width="800px">
+<table align="center" width="680px">
   <tr>
     <td align="center">
       <img src="./src/figure/overview.png" width="100%" alt="System overview">
-      <p style="text-align:center; font-style:italic;">Figure: System overview of FORTE.</p>
+      <p style="text-align:center; font-style:italic;font-size:24px;">System overview of FORTE.</p>
     </td>
   </tr>
 </table>
 
 <hr>
 <center><h1>Citation</h1></center>
+
+
+<hr>
+<center><h1>Comparison: FORTE vs On-Off</h1></center>
+
+<div style="max-width: 800px; margin: auto;">
+  <div style="display: flex; font-weight: bold; font-size: 20px; margin-bottom: 10px;">
+    <div style="flex: 1; text-align: center;">FORTE</div>
+    <div style="flex: 1; text-align: center;">On-Off</div>
+  </div>
+
+  <!-- Repeat this block for each pair -->
+  <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+    <video class="lazy-video" muted autoplay loop playsinline width="100%">
+      <source src="./video/force_video/FORTE/Cup_L_FORTE.mp4" type="video/mp4">
+    </video>
+    <video class="lazy-video" muted autoplay loop playsinline width="100%">
+      <source src="./video/force_video/On-Off/Cup_L_On-Off.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+    <video class="lazy-video" muted autoplay loop playsinline width="100%">
+      <source src="./video/force_video/FORTE/Cup_M_FORTE.mp4" type="video/mp4">
+    </video>
+    <video class="lazy-video" muted autoplay loop playsinline width="100%">
+      <source src="./video/force_video/On-Off/Cup_M_On-Off.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- Add more pairs like this -->
+</div>
 
 <table align=center width=800px>
   <tr>
