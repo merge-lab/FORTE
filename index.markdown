@@ -141,7 +141,7 @@ highlight {
 <div style="height: 4px;"></div>
 <center>
   <h1>
-    <strong>FORTE: Fully Integrated Sensor Suite<br>for Handling Fragile and Low-Friction Objects</strong>
+    <strong>FORTE: A Fully Embedded Force and Slip Sensing Suite for Delicate Manipulation</strong>
   </h1>
 </center>
 <center>
@@ -194,6 +194,15 @@ highlight {
   </div>
 </p>
 
+<table align="center" width="800px">
+  <tr>
+    <td align="center">
+      <img src="./src/figure/overview.png" width="100%" alt="System overview">
+      <p style="text-align:center; font-style:italic;">Figure: System overview of FORTE.</p>
+    </td>
+  </tr>
+</table>
+
 <hr>
 <center><h1>Citation</h1></center>
 
@@ -202,7 +211,7 @@ highlight {
     <td>
     <pre><code style="display:block; overflow-x: auto">
       @misc{shang2025forte,
-        title={FORTE: A Fully Embedded Force and Slip Sensing Suite\\for Delicate Manipulation},
+        title={FORTE: A Fully Embedded Force and Slip Sensing Suite for Delicate Manipulation},
         author={Shang, Siqi and Seo, Mingyo and Zhu, Yuke and Chin, Lilly},
         year={2025}
         eprint={2505.XXXXX},
