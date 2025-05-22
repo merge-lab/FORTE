@@ -204,39 +204,70 @@ highlight {
 </table>
 
 <hr>
-<center><h1>Citation</h1></center>
+<center><h1>FORTE vs On-Off</h1></center>
 
+<table border="0" cellspacing="10" cellpadding="0" align="center" width="1000px">
+  <!-- Column Headers -->
+  <tr>
+    <td align="center" style="font-weight: 600; font-size: 18px;">FORTE</td>
+    <td align="center" style="font-weight: 600; font-size: 18px;">On-Off</td>
+  </tr>
+
+  <!-- Chip -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./video/force_video/FORTE/Chip_FORTE.mp4" type="video/mp4">
+        Your browser doesn’t support MP4.
+      </video>
+      <div style="margin-top: 5px; font-size: 16px;">Chip</div>
+    </td>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./video/force_video/On-Off/Chip_On-Off.mp4" type="video/mp4">
+        Your browser doesn’t support MP4.
+      </video>
+      <div style="margin-top: 5px; font-size: 16px;">Chip</div>
+    </td>
+  </tr>
+
+  <!-- Cup_L -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./video/force_video/FORTE/Cup_L_FORTE.mp4" type="video/mp4">
+      </video>
+      <div style="margin-top: 5px; font-size: 16px;">Cup L</div>
+    </td>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./video/force_video/On-Off/Cup_L_On-Off.mp4" type="video/mp4">
+      </video>
+      <div style="margin-top: 5px; font-size: 16px;">Cup L</div>
+    </td>
+  </tr>
+
+  <!-- Cup_M -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./video/force_video/FORTE/Cup_M_FORTE.mp4" type="video/mp4">
+      </video>
+      <div style="margin-top: 5px; font-size: 16px;">Cup M</div>
+    </td>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./video/force_video/On-Off/Cup_M_On-Off.mp4" type="video/mp4">
+      </video>
+      <div style="margin-top: 5px; font-size: 16px;">Cup M</div>
+    </td>
+  </tr>
+
+  <!-- Repeat for Cup_S, Mash, Muffin, Origami, Ras, Tortilla... -->
+</table>
 
 <hr>
-<center><h1>Comparison: FORTE vs On-Off</h1></center>
-
-<div style="max-width: 800px; margin: auto;">
-  <div style="display: flex; font-weight: bold; font-size: 20px; margin-bottom: 10px;">
-    <div style="flex: 1; text-align: center;">FORTE</div>
-    <div style="flex: 1; text-align: center;">On-Off</div>
-  </div>
-
-  <!-- Repeat this block for each pair -->
-  <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-    <video class="lazy-video" muted autoplay loop playsinline width="100%">
-      <source src="./video/force_video/FORTE/Cup_L_FORTE.mp4" type="video/mp4">
-    </video>
-    <video class="lazy-video" muted autoplay loop playsinline width="100%">
-      <source src="./video/force_video/On-Off/Cup_L_On-Off.mp4" type="video/mp4">
-    </video>
-  </div>
-
-  <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-    <video class="lazy-video" muted autoplay loop playsinline width="100%">
-      <source src="./video/force_video/FORTE/Cup_M_FORTE.mp4" type="video/mp4">
-    </video>
-    <video class="lazy-video" muted autoplay loop playsinline width="100%">
-      <source src="./video/force_video/On-Off/Cup_M_On-Off.mp4" type="video/mp4">
-    </video>
-  </div>
-
-  <!-- Add more pairs like this -->
-</div>
+<center><h1>Citation</h1></center>
 
 <table align=center width=800px>
   <tr>
