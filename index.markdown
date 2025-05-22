@@ -204,7 +204,53 @@ highlight {
 </table>
 
 <hr>
-<center><h1>FORTE vs On-Off</h1></center>
+<center><h1>Slip Detection</h1></center>
+
+<div style="
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+">
+  <!-- Glasses -->
+  <div style="flex: 1 1 300px; text-align: center;">
+    <video muted autoplay loop playsinline width="100%">
+      <source src="./src/video/slip_video/glasses_slip_indication.mp4" type="video/mp4">
+      Your browser doesn’t support MP4.
+    </video>
+    <div style="margin-top: 8px; font-size: 16px; font-weight: 500;">
+      Glasses
+    </div>
+  </div>
+
+  <!-- Mandarin -->
+  <div style="flex: 1 1 300px; text-align: center;">
+    <video muted autoplay loop playsinline width="100%">
+      <source src="./src/video/slip_video/mandarin_slip_indication.mp4" type="video/mp4">
+      Your browser doesn’t support MP4.
+    </video>
+    <div style="margin-top: 8px; font-size: 16px; font-weight: 500;">
+      Mandarin
+    </div>
+  </div>
+
+  <!-- Nutella -->
+  <div style="flex: 1 1 300px; text-align: center;">
+    <video muted autoplay loop playsinline width="100%">
+      <source src="./src/video/slip_video/nutella_slip_indication.mp4" type="video/mp4">
+      Your browser doesn’t support MP4.
+    </video>
+    <div style="margin-top: 8px; font-size: 16px; font-weight: 500;">
+      Nutella
+    </div>
+  </div>
+</div>
+
+
+<hr>
+<center><h1>With vs Without Force Sensing</h1></center>
 
 <table border="0" cellspacing="10" cellpadding="0" align="center" width="1000px">
   <!-- Column Headers -->
@@ -217,14 +263,14 @@ highlight {
   <tr>
     <td align="center" valign="middle">
       <video muted autoplay loop width="480">
-        <source src="./video/force_video/FORTE/Chip_FORTE.mp4" type="video/mp4">
+        <source src="./src/video/force_video/FORTE/Chip_FORTE.mp4" type="video/mp4">
         Your browser doesn’t support MP4.
       </video>
       <div style="margin-top: 5px; font-size: 16px;">Chip</div>
     </td>
     <td align="center" valign="middle">
       <video muted autoplay loop width="480">
-        <source src="./video/force_video/On-Off/Chip_On-Off.mp4" type="video/mp4">
+        <source src="./src/video/force_video/On-Off/Chip_On-Off.mp4" type="video/mp4">
         Your browser doesn’t support MP4.
       </video>
       <div style="margin-top: 5px; font-size: 16px;">Chip</div>
@@ -235,13 +281,13 @@ highlight {
   <tr>
     <td align="center" valign="middle">
       <video muted autoplay loop width="480">
-        <source src="./video/force_video/FORTE/Cup_L_FORTE.mp4" type="video/mp4">
+        <source src="./src/video/force_video/FORTE/Cup_L_FORTE.mp4" type="video/mp4">
       </video>
       <div style="margin-top: 5px; font-size: 16px;">Cup L</div>
     </td>
     <td align="center" valign="middle">
       <video muted autoplay loop width="480">
-        <source src="./video/force_video/On-Off/Cup_L_On-Off.mp4" type="video/mp4">
+        <source src="./src/video/force_video/On-Off/Cup_L_On-Off.mp4" type="video/mp4">
       </video>
       <div style="margin-top: 5px; font-size: 16px;">Cup L</div>
     </td>
@@ -251,13 +297,13 @@ highlight {
   <tr>
     <td align="center" valign="middle">
       <video muted autoplay loop width="480">
-        <source src="./video/force_video/FORTE/Cup_M_FORTE.mp4" type="video/mp4">
+        <source src="./src/video/force_video/FORTE/Cup_M_FORTE.mp4" type="video/mp4">
       </video>
       <div style="margin-top: 5px; font-size: 16px;">Cup M</div>
     </td>
     <td align="center" valign="middle">
       <video muted autoplay loop width="480">
-        <source src="./video/force_video/On-Off/Cup_M_On-Off.mp4" type="video/mp4">
+        <source src="./src/video/force_video/On-Off/Cup_M_On-Off.mp4" type="video/mp4">
       </video>
       <div style="margin-top: 5px; font-size: 16px;">Cup M</div>
     </td>
