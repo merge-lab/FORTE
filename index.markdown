@@ -170,7 +170,7 @@ highlight {
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <video muted autoplay loop width="798">
+        <video muted autoplay playsinline loop width="798">
           <source src="./src/video/header.mp4"  type="video/mp4">
         </video>
       </td>
@@ -214,7 +214,7 @@ highlight {
   <!-- Glasses -->
   <tr>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="798">
+      <video muted autoplay playsinline loop width="798">
         <source src="./src/video/slip_video/glasses_slip_indication.mp4" type="video/mp4">
         Your browser doesn’t support MP4.
       </video>
@@ -223,7 +223,7 @@ highlight {
   <!-- Mandarin -->
   <tr>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="798">
+      <video muted autoplay playsinline loop width="798">
         <source src="./src/video/slip_video/mandarin_slip_indication.mp4" type="video/mp4">
         Your browser doesn’t support MP4.
       </video>
@@ -232,7 +232,7 @@ highlight {
   <!-- Nutella -->
   <tr>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="798">
+      <video muted autoplay playsinline loop width="798">
         <source src="./src/video/slip_video/nutella_slip_indication.mp4" type="video/mp4">
         Your browser doesn’t support MP4.
       </video>
@@ -254,12 +254,12 @@ highlight {
   <!-- Raspberry first -->
   <tr>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/FORTE/Ras_FORTE.mp4" type="video/mp4">
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/On-Off/Ras_On-Off.mp4" type="video/mp4">
       </video>
     </td>
@@ -268,12 +268,12 @@ highlight {
   <!-- Origami next -->
   <tr>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/FORTE/Origami_FORTE.mp4" type="video/mp4">
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/On-Off/Origami_On-Off.mp4" type="video/mp4">
       </video>
     </td>
@@ -282,12 +282,12 @@ highlight {
   <!-- Muffin -->
   <tr>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/FORTE/Muffin_FORTE.mp4" type="video/mp4">
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/On-Off/Muffin_On-Off.mp4" type="video/mp4">
       </video>
     </td>
@@ -296,12 +296,12 @@ highlight {
   <!-- Potato chip -->
   <tr>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/FORTE/Chip_FORTE.mp4" type="video/mp4">
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/On-Off/Chip_On-Off.mp4" type="video/mp4">
       </video>
     </td>
@@ -310,12 +310,12 @@ highlight {
   <!-- Mash -->
   <tr>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/FORTE/Mash_FORTE.mp4" type="video/mp4">
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/On-Off/Mash_On-Off.mp4" type="video/mp4">
       </video>
     </td>
@@ -324,12 +324,12 @@ highlight {
   <!-- Tortilla -->
   <tr>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/FORTE/Tortilla_FORTE.mp4" type="video/mp4">
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/On-Off/Tortilla_On-Off.mp4" type="video/mp4">
       </video>
     </td>
@@ -338,36 +338,36 @@ highlight {
   <!-- Paper cups at the end -->
   <tr>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/FORTE/Cup_L_FORTE.mp4" type="video/mp4">
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/On-Off/Cup_L_On-Off.mp4" type="video/mp4">
       </video>
     </td>
   </tr>
   <tr>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/FORTE/Cup_M_FORTE.mp4" type="video/mp4">
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/On-Off/Cup_M_On-Off.mp4" type="video/mp4">
       </video>
     </td>
   </tr>
   <tr>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/FORTE/Cup_S_FORTE.mp4" type="video/mp4">
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted autoplay loop width="480">
+      <video muted autoplay playsinline loop width="480">
         <source src="./src/video/force_video/On-Off/Cup_S_On-Off.mp4" type="video/mp4">
       </video>
     </td>
