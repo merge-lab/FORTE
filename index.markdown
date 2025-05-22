@@ -146,7 +146,7 @@ highlight {
 </center>
 <center>
   <h3>
-    <a href="https://https://siqishang.github.io//">Siqi Shang</a>&nbsp;&nbsp;&nbsp;
+    <a href="https://merge-lab.github.io/">Siqi Shang</a>&nbsp;&nbsp;&nbsp;
     <a href="https://mingyoseo.com/">Mingyo Seo</a>&nbsp;&nbsp;&nbsp;
     <a href="https://yukezhu.me/">Yuke Zhu</a>&nbsp;&nbsp;&nbsp;
     <a href="https://lillych.in/">Lilly Chin</a>&nbsp;&nbsp;&nbsp;
@@ -154,11 +154,15 @@ highlight {
   <h3>
     <a href="https://www.utexas.edu/">The University of Texas at Austin</a>&nbsp;&nbsp;&nbsp;
   </h3>
-  <h3>
+  <!-- <h3>
     <a href="http://arxiv.org/abs/2411.03682">
-      <i class="ai ai-arxiv"></i> Paper</a> | 
+      <i class="ai ai-arxiv"></i> Paper (Coming Soon)</a> | 
     <a href="https://github.com/Siqi-Shang/FORTE">
-      <i class="fa-brands fa-github"></i> Code</a>
+      <i class="fa-brands fa-github"></i> Code (Coming Soon)</a>
+  </h3> -->
+  <h3>
+    <i class="ai ai-arxiv"></i> Paper (Coming Soon) | 
+    <i class="fa-brands fa-github"></i> Code (Coming Soon)
   </h3>
 </center>
 
