@@ -194,59 +194,51 @@ highlight {
   </div>
 </p>
 
-<table align="center" width="680px">
-  <tr>
-    <td align="center">
-      <img src="./src/figure/overview.png" width="100%" alt="System overview">
-      <p style="text-align:center; font-style:italic;font-size:24px;">System overview of FORTE.</p>
-    </td>
-  </tr>
-</table>
+<figure style="max-width:680px; margin:40px auto;">
+  <img
+    src="./src/figure/overview.png"
+    alt="System overview of FORTE"
+    style="width:100%; height:auto; border-radius:8px;"
+  >
+  <figcaption
+    style="text-align:center; font-style:italic; font-size:1.2rem; color:#555; margin-top:0.5em;"
+  >
+    System overview of FORTE.
+  </figcaption>
+</figure>
 
 <hr>
 <center><h1>Slip Detection</h1></center>
 
-<div style="
-  max-width: 1000px;
-  margin: auto;
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  justify-content: center;
-">
+<table border="0" cellspacing="10" cellpadding="0" align="center">
   <!-- Glasses -->
-  <div style="flex: 1 1 300px; text-align: center;">
-    <video muted autoplay loop playsinline width="100%">
-      <source src="./src/video/slip_video/glasses_slip_indication.mp4" type="video/mp4">
-      Your browser doesn’t support MP4.
-    </video>
-    <div style="margin-top: 8px; font-size: 16px; font-weight: 500;">
-      Glasses
-    </div>
-  </div>
-
+  <tr>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="798">
+        <source src="./src/video/slip_video/glasses_slip_indication.mp4" type="video/mp4">
+        Your browser doesn’t support MP4.
+      </video>
+    </td>
+  </tr>
   <!-- Mandarin -->
-  <div style="flex: 1 1 300px; text-align: center;">
-    <video muted autoplay loop playsinline width="100%">
-      <source src="./src/video/slip_video/mandarin_slip_indication.mp4" type="video/mp4">
-      Your browser doesn’t support MP4.
-    </video>
-    <div style="margin-top: 8px; font-size: 16px; font-weight: 500;">
-      Mandarin
-    </div>
-  </div>
-
+  <tr>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="798">
+        <source src="./src/video/slip_video/mandarin_slip_indication.mp4" type="video/mp4">
+        Your browser doesn’t support MP4.
+      </video>
+    </td>
+  </tr>
   <!-- Nutella -->
-  <div style="flex: 1 1 300px; text-align: center;">
-    <video muted autoplay loop playsinline width="100%">
-      <source src="./src/video/slip_video/nutella_slip_indication.mp4" type="video/mp4">
-      Your browser doesn’t support MP4.
-    </video>
-    <div style="margin-top: 8px; font-size: 16px; font-weight: 500;">
-      Nutella
-    </div>
-  </div>
-</div>
+  <tr>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="798">
+        <source src="./src/video/slip_video/nutella_slip_indication.mp4" type="video/mp4">
+        Your browser doesn’t support MP4.
+      </video>
+    </td>
+  </tr>
+</table>
 
 
 <hr>
