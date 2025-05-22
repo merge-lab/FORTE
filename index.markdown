@@ -247,8 +247,8 @@ highlight {
 <table border="0" cellspacing="10" cellpadding="0" align="center" width="1000px">
   <!-- Column Headers -->
   <tr>
-    <td align="center" style="font-weight:600; font-size:18px;">FORTE</td>
-    <td align="center" style="font-weight:600; font-size:18px;">On-Off</td>
+    <td align="center" style="font-weight:600; font-size:20px;">FORTE</td>
+    <td align="center" style="font-weight:600; font-size:20px;">On-Off</td>
   </tr>
 
   <!-- Raspberry first -->
