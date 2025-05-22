@@ -247,62 +247,133 @@ highlight {
 <table border="0" cellspacing="10" cellpadding="0" align="center" width="1000px">
   <!-- Column Headers -->
   <tr>
-    <td align="center" style="font-weight: 600; font-size: 18px;">FORTE</td>
-    <td align="center" style="font-weight: 600; font-size: 18px;">On-Off</td>
+    <td align="center" style="font-weight:600; font-size:18px;">FORTE</td>
+    <td align="center" style="font-weight:600; font-size:18px;">On-Off</td>
   </tr>
 
-  <!-- Chip -->
+  <!-- Raspberry first -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./src/video/force_video/FORTE/Ras_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./src/video/force_video/On-Off/Ras_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+
+  <!-- Origami next -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./src/video/force_video/FORTE/Origami_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./src/video/force_video/On-Off/Origami_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+
+  <!-- Muffin -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./src/video/force_video/FORTE/Muffin_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./src/video/force_video/On-Off/Muffin_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+
+  <!-- Potato chip -->
   <tr>
     <td align="center" valign="middle">
       <video muted autoplay loop width="480">
         <source src="./src/video/force_video/FORTE/Chip_FORTE.mp4" type="video/mp4">
-        Your browser doesn’t support MP4.
       </video>
-      <div style="margin-top: 5px; font-size: 16px;">Chip</div>
     </td>
     <td align="center" valign="middle">
       <video muted autoplay loop width="480">
         <source src="./src/video/force_video/On-Off/Chip_On-Off.mp4" type="video/mp4">
-        Your browser doesn’t support MP4.
       </video>
-      <div style="margin-top: 5px; font-size: 16px;">Chip</div>
     </td>
   </tr>
 
-  <!-- Cup_L -->
+  <!-- Mash -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./src/video/force_video/FORTE/Mash_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./src/video/force_video/On-Off/Mash_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+
+  <!-- Tortilla -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./src/video/force_video/FORTE/Tortilla_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./src/video/force_video/On-Off/Tortilla_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+
+  <!-- Paper cups at the end -->
   <tr>
     <td align="center" valign="middle">
       <video muted autoplay loop width="480">
         <source src="./src/video/force_video/FORTE/Cup_L_FORTE.mp4" type="video/mp4">
       </video>
-      <div style="margin-top: 5px; font-size: 16px;">Cup L</div>
     </td>
     <td align="center" valign="middle">
       <video muted autoplay loop width="480">
         <source src="./src/video/force_video/On-Off/Cup_L_On-Off.mp4" type="video/mp4">
       </video>
-      <div style="margin-top: 5px; font-size: 16px;">Cup L</div>
     </td>
   </tr>
-
-  <!-- Cup_M -->
   <tr>
     <td align="center" valign="middle">
       <video muted autoplay loop width="480">
         <source src="./src/video/force_video/FORTE/Cup_M_FORTE.mp4" type="video/mp4">
       </video>
-      <div style="margin-top: 5px; font-size: 16px;">Cup M</div>
     </td>
     <td align="center" valign="middle">
       <video muted autoplay loop width="480">
         <source src="./src/video/force_video/On-Off/Cup_M_On-Off.mp4" type="video/mp4">
       </video>
-      <div style="margin-top: 5px; font-size: 16px;">Cup M</div>
     </td>
   </tr>
-
-  <!-- Repeat for Cup_S, Mash, Muffin, Origami, Ras, Tortilla... -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./src/video/force_video/FORTE/Cup_S_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted autoplay loop width="480">
+        <source src="./src/video/force_video/On-Off/Cup_S_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
 </table>
+
 
 <hr>
 <center><h1>Citation</h1></center>
