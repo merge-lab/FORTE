@@ -149,7 +149,7 @@ highlight {
 <div style="height: 4px;"></div>
 <center>
   <h1>
-    <strong>FORTE: A Fully Embedded Force and Slip Sensing Suite for Delicate Manipulation</strong>
+    <strong>FORTE: Tactile Force and Slip Sensing on Compliant Fingers for Delicate Manipulation</strong>
   </h1>
 </center>
 <center>
