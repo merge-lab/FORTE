@@ -8,13 +8,21 @@ categories: projects
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>FORTE: A Fully Embedded Force and Slip Sensing Suite\\for Delicate Manipulation</title>
+  <title>FORTE: Tactile Force and Slip Sensing on Compliant Fingers for Delicate Manipulation</title>
 
-<!-- <meta property="og:image" content="src/figure/approach.png"> -->
 <meta property="og:title" content="FORTE">
 
 <script src="./src/popup.js" type="text/javascript"></script>
 <script src="https://kit.fontawesome.com/ef67f68cfb.js" crossorigin="anonymous"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K2PWYYL4DS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
@@ -141,24 +149,24 @@ highlight {
 <div style="height: 4px;"></div>
 <center>
   <h1>
-    <strong>FORTE: Fully Integrated Sensor Suite<br>for Handling Fragile and Low-Friction Objects</strong>
+    <strong>FORTE: Tactile Force and Slip Sensing on Compliant Fingers for Delicate Manipulation</strong>
   </h1>
 </center>
 <center>
   <h3>
-    <a href="https://https://siqishang.github.io//">Siqi Shang</a>&nbsp;&nbsp;&nbsp;
+    <a href="https://merge-lab.github.io/">Siqi Shang</a>&nbsp;&nbsp;&nbsp;
     <a href="https://mingyoseo.com/">Mingyo Seo</a>&nbsp;&nbsp;&nbsp;
     <a href="https://yukezhu.me/">Yuke Zhu</a>&nbsp;&nbsp;&nbsp;
-    <a href="https://lillych.in/">Lilly Chin</a>&nbsp;&nbsp;&nbsp;
+    <a href="https://lillych.in/">Lillian Chin</a>&nbsp;&nbsp;&nbsp;
   </h3>
   <h3>
     <a href="https://www.utexas.edu/">The University of Texas at Austin</a>&nbsp;&nbsp;&nbsp;
   </h3>
   <h3>
-    <a href="http://arxiv.org/abs/2411.03682">
+    <a href="http://arxiv.org/abs/2506.18960">
       <i class="ai ai-arxiv"></i> Paper</a> | 
-    <a href="https://github.com/Siqi-Shang/FORTE">
-      <i class="fa-brands fa-github"></i> Code</a>
+    <a href="https://github.com/merge-lab/FORTE">
+      <i class="fa-brands fa-github"></i> Code (Coming Soon)</a>
   </h3>
 </center>
 
@@ -166,7 +174,7 @@ highlight {
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <video muted autoplay loop width="798">
+        <video muted autoplay playsinline loop width="798">
           <source src="./src/video/header.mp4"  type="video/mp4">
         </video>
       </td>
@@ -181,7 +189,7 @@ highlight {
         <tr>
           <td>
             <p align="justify" width="20%">
-              Handling delicate and fragile objects remains a major challenge for robotic manipulation, especially for rigid parallel grippers. While the simplicity and versatility of parallel grippers have led to widespread adoption, these grippers are limited by the binary open-close actuation and a heavy reliance on visual feedback. Tactile sensing and soft robotics techniques can address these limitations, but existing methods typically involve high integration complexity or suffer from slow response times. In this work, we introduce FORTE, a tactile sensing system embedded in compliant gripper fingers. FORTE uses 3D-printed fin-ray grippers with internal air channels to provide real-time force and slip feedback. FORTE applies just enough force to grasp objects without damaging them, while remaining easy to fabricate and integrate. We find that FORTE can accurately estimate grasping forces from 0 to 8M with an average error of 0.2N, and detect slip events within 100ms of occurring. Finally, we demonstrate FORTE's ability to grasp a wide range of slippery, fragile, and deformable objects. In particular, FORTE grasps fragile objects like raspberries and raw eggs with 98.6\% grasping success rate and 93\% accuracy on detecting slip events. These results highlight FORTE’s potential as a robust and practical solution for enabling delicate robotic manipulation.
+              Handling delicate and fragile objects remains a major challenge for robotic manipulation, especially for rigid parallel grippers. While the simplicity and versatility of parallel grippers have led to widespread adoption, these grippers are limited by their heavy reliance on visual feedback. Tactile sensing and soft robotics can add responsiveness and compliance. However, existing methods typically involve high integration complexity or suffer from slow response times. In this work, we introduce FORTE, a tactile sensing system embedded in compliant gripper fingers. FORTE uses 3D-printed fin-ray grippers with internal air channels to provide low-latency force and slip feedback. FORTE applies just enough force to grasp objects without damaging them, while remaining easy to fabricate and integrate. We find that FORTE can accurately estimate grasping forces from 0-8 N with an average error of 0.2 N, and detect slip events within 100 ms of occurring. We demonstrate FORTE's ability to grasp a wide range of slippery, fragile, and deformable objects. In particular, FORTE grasps fragile objects like raspberries and potato chips with a 98.6% success rate, and achieves 93% accuracy in detecting slip events. These results highlight FORTE's potential as a robust and practical solution for enabling delicate robotic manipulation.
       	    </p>
           </td>
         </tr>
@@ -191,6 +199,174 @@ highlight {
 </p>
 
 <hr>
+<center><h1>Slip Detection</h1></center>
+
+<table border="0" cellspacing="10" cellpadding="0" align="center">
+  <!-- Glasses -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted controls width="600">
+        <source src="./src/video/slip_video/glasses_slip_indication.mp4" type="video/mp4">
+        Your browser doesn’t support MP4.
+      </video>
+    </td>
+  </tr>
+  <!-- Mandarin -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted controls width="600">
+        <source src="./src/video/slip_video/mandarin_slip_indication.mp4" type="video/mp4">
+        Your browser doesn’t support MP4.
+      </video>
+    </td>
+  </tr>
+  <!-- Nutella -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted controls width="600">
+        <source src="./src/video/slip_video/nutella_slip_indication.mp4" type="video/mp4">
+        Your browser doesn’t support MP4.
+      </video>
+    </td>
+  </tr>
+</table>
+
+
+<hr>
+<center><h1>Force Sensing</h1></center>
+
+<table border="0" cellspacing="10" cellpadding="0" align="center" width="1000px">
+  <!-- Column Headers -->
+  <tr>
+    <td align="center" style="font-weight:600; font-size:20px;">FORTE's Force Sensing</td>
+    <td align="center" style="font-weight:600; font-size:20px;">Without Force Sensing</td>
+  </tr>
+
+  <!-- Raspberry first -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/FORTE/Ras_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/On-Off/Ras_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+
+  <!-- Origami next -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/FORTE/Origami_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/On-Off/Origami_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+
+  <!-- Muffin -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/FORTE/Muffin_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/On-Off/Muffin_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+
+  <!-- Potato chip -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/FORTE/Chip_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/On-Off/Chip_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+
+  <!-- Mash -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/FORTE/Mash_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/On-Off/Mash_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+
+  <!-- Tortilla -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/FORTE/Tortilla_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/On-Off/Tortilla_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+
+  <!-- Paper cups at the end -->
+  <tr>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/FORTE/Cup_L_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/On-Off/Cup_L_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/FORTE/Cup_M_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/On-Off/Cup_M_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/FORTE/Cup_S_FORTE.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted controls width="394">
+        <source src="./src/video/force_video/On-Off/Cup_S_On-Off.mp4" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+</table>
+
+
+<hr>
 <center><h1>Citation</h1></center>
 
 <table align=center width=800px>
@@ -198,10 +374,10 @@ highlight {
     <td>
     <pre><code style="display:block; overflow-x: auto">
       @misc{shang2025forte,
-        title={FORTE: A Fully Embedded Force and Slip Sensing Suite\\for Delicate Manipulation},
-        author={Shang, Siqi and Seo, Mingyo and Zhu, Yuke and Chin, Lilly},
+        title={FORTE: Tactile Force and Slip Sensing on Compliant Fingers for Delicate Manipulation},
+        author={Shang, Siqi and Seo, Mingyo and Zhu, Yuke and Chin, Lillian},
         year={2025}
-        eprint={2505.XXXXX},
+        eprint={2506.18960},
         archivePrefix={arXiv},
         primaryClass={cs.RO}
       }
