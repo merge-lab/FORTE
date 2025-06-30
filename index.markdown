@@ -177,7 +177,7 @@ highlight {
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <iframe width="798"
+        <iframe width="798" height="449"
           src="https://www.youtube.com/embed/_Tmf4E8eWE4?si=XxMguEEVnaXcdDHt?autoplay=1&mute=1&loop=1"
           frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
         >
@@ -370,8 +370,9 @@ highlight {
   </tr>
 </table>
 
+<hr>
 
-<h1 align="center">FORTE Finger</h1>
+<h1 align="center">Finger Fabrication</h1>
 
 <table border="0" cellspacing="10" cellpadding="0" align="center">
   <tbody>
