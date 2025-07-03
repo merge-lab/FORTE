@@ -207,40 +207,66 @@ highlight {
 <center><h1>Slip Detection</h1></center>
 
 <table border="0" cellspacing="10" cellpadding="0" align="center">
-  <!-- Glasses -->
-  <tr>
-    <td align="center" valign="middle">
-      <video muted controls width="600">
-        <source src="./src/video/slip_video/glasses_slip_indication.mp4" type="video/mp4">
-        Your browser doesn’t support MP4.
-      </video>
-    </td>
-  </tr>
-  <!-- Mandarin -->
-  <tr>
-    <td align="center" valign="middle">
-      <video muted controls width="600">
-        <source src="./src/video/slip_video/mandarin_slip_indication.mp4" type="video/mp4">
-        Your browser doesn’t support MP4.
-      </video>
-    </td>
-  </tr>
-  <!-- Nutella -->
-  <tr>
-    <td align="center" valign="middle">
-      <video muted controls width="600">
-        <source src="./src/video/slip_video/nutella_slip_indication.mp4" type="video/mp4">
-        Your browser doesn’t support MP4.
-      </video>
-    </td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/mandarin.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/eyeglasses.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/bottle.mp4"  type="video/mp4">
+        </video>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/nutella.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/soda.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/whisky.mp4"  type="video/mp4">
+        </video>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/apple.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/egg.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/bililard.mp4"  type="video/mp4">
+        </video>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 
 <hr>
 <center><h1>Force Sensing</h1></center>
 
-<table border="0" cellspacing="10" cellpadding="0" align="center" width="1000px">
+<table border="0" cellspacing="10" cellpadding="0" align="center" width="800px">
   <!-- Column Headers -->
   <tr>
     <td align="center" style="font-weight:600; font-size:20px;">FORTE's Force Sensing</td>
