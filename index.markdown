@@ -259,6 +259,32 @@ highlight {
         </video>
       </td>
     </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/bottle_vertical.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/tuna.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/pringles.mp4"  type="video/mp4">
+        </video>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle"></td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/soup.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle"></td>
+    </tr>
   </tbody>
 </table>
 
