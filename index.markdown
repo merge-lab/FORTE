@@ -457,7 +457,8 @@ highlight {
     <td>
     <pre><code style="display:block; overflow-x: auto">
       @misc{shang2025forte,
-        title={FORTE: Tactile Force and Slip Sensing on Compliant Fingers for Delicate Manipulation},
+        title={FORTE: Tactile Force and Slip Sensing on Compliant Fingers for 
+          Delicate Manipulation},
         author={Shang, Siqi and Seo, Mingyo and Zhu, Yuke and Chin, Lillian},
         year={2025}
         eprint={2506.18960},
