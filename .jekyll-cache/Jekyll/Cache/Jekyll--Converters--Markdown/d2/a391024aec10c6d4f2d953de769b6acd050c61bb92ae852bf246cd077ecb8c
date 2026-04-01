@@ -1,22 +1,19 @@
----
-layout: common
-permalink: /
-categories: projects
----
+I"Z;<link media="all" href="./css/glab.css" type="text/css" rel="StyleSheet" />
 
-<link media="all" href="./css/glab.css" type="text/css" rel="StyleSheet">
-<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>FORTE: Tactile Force and Slip Sensing on Compliant Fingers for Delicate Manipulation</title>
 
-<meta property="og:title" content="FORTE">
+<meta property="og:title" content="FORTE" />
 
 <script src="./src/popup.js" type="text/javascript"></script>
 <script src="https://kit.fontawesome.com/ef67f68cfb.js" crossorigin="anonymous"></script>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-K2PWYYL4DS"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-K2PWYYL4DS"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -119,11 +116,7 @@ table {
   }
 </style>
 
-<meta content="MSHTML 6.00.2800.1400" name="GENERATOR"><script
-src="./src/b5m.js" id="b5mmain"
-type="text/javascript"></script><script type="text/javascript"
-async=""
-src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
+<meta content="MSHTML 6.00.2800.1400" name="GENERATOR" /><script src="./src/b5m.js" id="b5mmain" type="text/javascript"></script><script type="text/javascript" async="" src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
 
 
 </head>
@@ -179,10 +172,7 @@ highlight {
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <iframe width="798" height="449"
-          src="https://www.youtube.com/embed/grAuLHUeDBw?si=XQh_g36VIA9vLTuQ?autoplay=1&mute=1&loop=1"
-          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-        >
+        <iframe width="798" height="449" src="https://www.youtube.com/embed/grAuLHUeDBw?si=XQh_g36VIA9vLTuQ?autoplay=1&amp;mute=1&amp;loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
         </iframe>  
       </td>
     </tr> 
@@ -192,7 +182,7 @@ highlight {
 <p>
   <div width="500">
     <p>
-      <table align=center width=800px>
+      <table align="center" width="800px">
         <tr>
           <td>
             <p align="justify" width="20%">
@@ -205,84 +195,84 @@ highlight {
   </div>
 </p>
 
-<hr>
+<hr />
 <center><h1>Slip Detection</h1></center>
 
 <table border="0" cellspacing="10" cellpadding="0" align="center">
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <video muted controls width="258">
-          <source src="./src/video/slip/mandarin.mp4"  type="video/mp4">
+        <video muted="" controls="" width="258">
+          <source src="./src/video/slip/mandarin.mp4" type="video/mp4" />
         </video>
       </td>
       <td align="center" valign="middle">
-        <video muted controls width="258">
-          <source src="./src/video/slip/eyeglasses.mp4"  type="video/mp4">
+        <video muted="" controls="" width="258">
+          <source src="./src/video/slip/eyeglasses.mp4" type="video/mp4" />
         </video>
       </td>
       <td align="center" valign="middle">
-        <video muted controls width="258">
-          <source src="./src/video/slip/bottle.mp4"  type="video/mp4">
-        </video>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="middle">
-        <video muted controls width="258">
-          <source src="./src/video/slip/nutella.mp4"  type="video/mp4">
-        </video>
-      </td>
-      <td align="center" valign="middle">
-        <video muted controls width="258">
-          <source src="./src/video/slip/soda.mp4"  type="video/mp4">
-        </video>
-      </td>
-      <td align="center" valign="middle">
-        <video muted controls width="258">
-          <source src="./src/video/slip/whisky.mp4"  type="video/mp4">
+        <video muted="" controls="" width="258">
+          <source src="./src/video/slip/bottle.mp4" type="video/mp4" />
         </video>
       </td>
     </tr>
     <tr>
       <td align="center" valign="middle">
-        <video muted controls width="258">
-          <source src="./src/video/slip/apple.mp4"  type="video/mp4">
+        <video muted="" controls="" width="258">
+          <source src="./src/video/slip/nutella.mp4" type="video/mp4" />
         </video>
       </td>
       <td align="center" valign="middle">
-        <video muted controls width="258">
-          <source src="./src/video/slip/egg.mp4"  type="video/mp4">
+        <video muted="" controls="" width="258">
+          <source src="./src/video/slip/soda.mp4" type="video/mp4" />
         </video>
       </td>
       <td align="center" valign="middle">
-        <video muted controls width="258">
-          <source src="./src/video/slip/bililard.mp4"  type="video/mp4">
+        <video muted="" controls="" width="258">
+          <source src="./src/video/slip/whisky.mp4" type="video/mp4" />
         </video>
       </td>
     </tr>
     <tr>
       <td align="center" valign="middle">
-        <video muted controls width="258">
-          <source src="./src/video/slip/bottle_vertical.mp4"  type="video/mp4">
+        <video muted="" controls="" width="258">
+          <source src="./src/video/slip/apple.mp4" type="video/mp4" />
         </video>
       </td>
       <td align="center" valign="middle">
-        <video muted controls width="258">
-          <source src="./src/video/slip/tuna.mp4"  type="video/mp4">
+        <video muted="" controls="" width="258">
+          <source src="./src/video/slip/egg.mp4" type="video/mp4" />
         </video>
       </td>
       <td align="center" valign="middle">
-        <video muted controls width="258">
-          <source src="./src/video/slip/pringles.mp4"  type="video/mp4">
+        <video muted="" controls="" width="258">
+          <source src="./src/video/slip/bililard.mp4" type="video/mp4" />
+        </video>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <video muted="" controls="" width="258">
+          <source src="./src/video/slip/bottle_vertical.mp4" type="video/mp4" />
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted="" controls="" width="258">
+          <source src="./src/video/slip/tuna.mp4" type="video/mp4" />
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted="" controls="" width="258">
+          <source src="./src/video/slip/pringles.mp4" type="video/mp4" />
         </video>
       </td>
     </tr>
     <tr>
       <td align="center" valign="middle"></td>
       <td align="center" valign="middle">
-        <video muted controls width="258">
-          <source src="./src/video/slip/soup.mp4"  type="video/mp4">
+        <video muted="" controls="" width="258">
+          <source src="./src/video/slip/soup.mp4" type="video/mp4" />
         </video>
       </td>
       <td align="center" valign="middle"></td>
@@ -291,7 +281,7 @@ highlight {
 </table>
 
 
-<hr>
+<hr />
 <center><h1>Force Sensing</h1></center>
 
 <table border="0" cellspacing="10" cellpadding="0" align="center" width="800px">
@@ -304,13 +294,13 @@ highlight {
   <!-- Raspberry first -->
   <tr>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/FORTE/Ras_FORTE.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/FORTE/Ras_FORTE.mp4" type="video/mp4" />
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/On-Off/Ras_On-Off.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/On-Off/Ras_On-Off.mp4" type="video/mp4" />
       </video>
     </td>
   </tr>
@@ -318,13 +308,13 @@ highlight {
   <!-- Origami next -->
   <tr>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/FORTE/Origami_FORTE.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/FORTE/Origami_FORTE.mp4" type="video/mp4" />
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/On-Off/Origami_On-Off.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/On-Off/Origami_On-Off.mp4" type="video/mp4" />
       </video>
     </td>
   </tr>
@@ -332,13 +322,13 @@ highlight {
   <!-- Muffin -->
   <tr>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/FORTE/Muffin_FORTE.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/FORTE/Muffin_FORTE.mp4" type="video/mp4" />
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/On-Off/Muffin_On-Off.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/On-Off/Muffin_On-Off.mp4" type="video/mp4" />
       </video>
     </td>
   </tr>
@@ -346,13 +336,13 @@ highlight {
   <!-- Potato chip -->
   <tr>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/FORTE/Chip_FORTE.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/FORTE/Chip_FORTE.mp4" type="video/mp4" />
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/On-Off/Chip_On-Off.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/On-Off/Chip_On-Off.mp4" type="video/mp4" />
       </video>
     </td>
   </tr>
@@ -360,13 +350,13 @@ highlight {
   <!-- Mash -->
   <tr>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/FORTE/Mash_FORTE.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/FORTE/Mash_FORTE.mp4" type="video/mp4" />
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/On-Off/Mash_On-Off.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/On-Off/Mash_On-Off.mp4" type="video/mp4" />
       </video>
     </td>
   </tr>
@@ -374,13 +364,13 @@ highlight {
   <!-- Tortilla -->
   <tr>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/FORTE/Tortilla_FORTE.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/FORTE/Tortilla_FORTE.mp4" type="video/mp4" />
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/On-Off/Tortilla_On-Off.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/On-Off/Tortilla_On-Off.mp4" type="video/mp4" />
       </video>
     </td>
   </tr>
@@ -388,43 +378,43 @@ highlight {
   <!-- Paper cups at the end -->
   <tr>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/FORTE/Cup_L_FORTE.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/FORTE/Cup_L_FORTE.mp4" type="video/mp4" />
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/On-Off/Cup_L_On-Off.mp4" type="video/mp4">
-      </video>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/FORTE/Cup_M_FORTE.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/On-Off/Cup_M_On-Off.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/On-Off/Cup_L_On-Off.mp4" type="video/mp4" />
       </video>
     </td>
   </tr>
   <tr>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/FORTE/Cup_S_FORTE.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/FORTE/Cup_M_FORTE.mp4" type="video/mp4" />
       </video>
     </td>
     <td align="center" valign="middle">
-      <video muted controls width="394">
-        <source src="./src/video/force_video/On-Off/Cup_S_On-Off.mp4" type="video/mp4">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/On-Off/Cup_M_On-Off.mp4" type="video/mp4" />
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/FORTE/Cup_S_FORTE.mp4" type="video/mp4" />
+      </video>
+    </td>
+    <td align="center" valign="middle">
+      <video muted="" controls="" width="394">
+        <source src="./src/video/force_video/On-Off/Cup_S_On-Off.mp4" type="video/mp4" />
       </video>
     </td>
   </tr>
 </table>
 
-<hr>
+<hr />
 
 <h1 align="center">Finger Fabrication</h1>
 
@@ -432,15 +422,15 @@ highlight {
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <video class="lazy-video" muted loop width="798">
-          <source src="./src/video/tutorial.mp4"  type="video/mp4">
+        <video class="lazy-video" muted="" loop="" width="798">
+          <source src="./src/video/tutorial.mp4" type="video/mp4" />
         </video>
       </td>
     </tr> 
   </tbody> 
 </table>
 
-<table align=center width=800px>
+<table align="center" width="800px">
   <tr>
     <td>
       <p align="justify" width="20%">
@@ -450,11 +440,11 @@ highlight {
   </tr>
 </table>
 
-<hr>
+<hr />
 
 <center><h1>Citation</h1></center>
 
-<table align=center width=800px>
+<table align="center" width="800px">
   <tr>
     <td>
     <pre><code style="display:block; overflow-x: auto">
@@ -469,3 +459,5 @@ highlight {
     </td>
   </tr>
 </table>
+</div></body>
+:ET
