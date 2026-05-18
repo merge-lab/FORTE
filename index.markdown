@@ -171,7 +171,7 @@ highlight {
     <a href="https://merge-lab.github.io/FORTE-Finger">
       <i class="fa-solid fa-gear"></i> Hardware</a> |
     <a href="https://github.com/merge-lab/FORTE">
-      <i class="fa-brands fa-github"></i> Code (Coming Soon)</a>
+      <i class="fa-brands fa-github"></i> Code</a>
   </h3>
 </center>
 
