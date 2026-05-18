@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forte"
+version = "0.1.0"
+description = "FORTE: real-time tactile force estimation and slip detection with the FORTE sensorized gripper."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{ name = "Siqi Shang" }]
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "joblib",
+    "pyserial",
+    "PyQt5",
+    "pyqtgraph",
+    "omegaconf",
+    "h5py",
+    "pynput",
+    "pyyaml",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+# Required only for the Franka arm portion of gripper_showcase_vis_realtime.py.
+# See https://github.com/UT-Austin-RPL/deoxys_control for install instructions.
+arm = []
+
+[tool.setuptools]
+packages = ["forte", "forte.sensing", "forte.runtime", "forte_gripper", "forte_gripper.dynamixel"]

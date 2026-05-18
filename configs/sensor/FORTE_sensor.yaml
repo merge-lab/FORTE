@@ -1,0 +1,14 @@
+# FORTE 6-channel tactile sensor (analog), read over USB serial.
+FORTE:
+  sensor:
+    use_simulation: false
+    frequency: 2000
+    name: "FORTE"
+    data_handler: "repeat_last"
+    log_file: "FORTE.log"
+    selected_keys: ["T1", "T2", "T3", "T4", "T5", "T6"]
+    connection_type: "serial"
+    port: "/dev/ttyACM0"
+    baudrate: 2000000
+    enable_preprocessing: True
+    h5_file_path: "FORTE.h5"

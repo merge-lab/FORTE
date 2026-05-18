@@ -1,0 +1,27 @@
+system:
+  port_name: '/dev/ttyUSB0'
+  baudrate: 4000000
+  protocol_ver: 2
+
+gripper:
+  finger_right:
+    control_mode: impedance
+    feedback_mode: all
+    id: 0x01
+    series: XM430
+    torque_limit: 0.3          # N*m
+    velocity_limit: 0.1        # rad/s
+    position_min: 0.1          # normalized
+    position_max: 0.3          # normalized
+    profile_velocity: 0.03     # rad/s
+
+  finger_left:
+    control_mode: impedance
+    feedback_mode: all
+    id: 0x02
+    series: XM430
+    torque_limit: 0.3
+    velocity_limit: 0.1
+    position_min: -0.3
+    position_max: -0.1
+    profile_velocity: 0.03
